@@ -1,0 +1,97 @@
+{
+  "manufacturer": "Mitsubishi Electric",
+  "supportedModels": [
+    "MSY-GM18VA"
+  ],
+  "supportedController": "MQTT",
+  "commandsEncoding": "Raw",
+  "minTemperature": 16.0,
+  "maxTemperature": 31.0,
+  "precision": 1.0,
+  "operationModes": [
+    "cool"
+  ],
+  "fanModes": [
+    "low",
+    "mid",
+    "high",
+    "highest"
+  ],
+  "commands": {
+    "off": "{\"ir_code_to_send\": \"@@@\"}",
+    "cool": {
+      "low": {
+        "16": "{\"ir_code_to_send\": \"@@@\"}",
+        "17": "{\"ir_code_to_send\": \"@@@\"}",
+        "18": "{\"ir_code_to_send\": \"@@@\"}",
+		"19": "{\"ir_code_to_send\": \"@@@\"}",
+		"20": "{\"ir_code_to_send\": \"@@@\"}",
+		"21": "{\"ir_code_to_send\": \"@@@\"}",
+		"22": "{\"ir_code_to_send\": \"@@@\"}",
+		"23": "{\"ir_code_to_send\": \"@@@\"}",
+		"24": "{\"ir_code_to_send\": \"@@@\"}",
+		"25": "{\"ir_code_to_send\": \"@@@\"}",
+		"26": "{\"ir_code_to_send\": \"@@@\"}",
+		"27": "{\"ir_code_to_send\": \"@@@\"}",
+		"28": "{\"ir_code_to_send\": \"@@@\"}",
+		"29": "{\"ir_code_to_send\": \"@@@\"}",
+		"30": "{\"ir_code_to_send\": \"@@@\"}",
+		"31": "{\"ir_code_to_send\": \"@@@\"}"
+      },
+      "mid": {
+        "16": "{\"ir_code_to_send\": \"@@@\"}",
+        "17": "{\"ir_code_to_send\": \"@@@\"}",
+        "18": "{\"ir_code_to_send\": \"@@@\"}",
+        "19": "{\"ir_code_to_send\": \"@@@\"}",
+        "20": "{\"ir_code_to_send\": \"@@@\"}",
+        "21": "{\"ir_code_to_send\": \"@@@\"}",
+        "22": "{\"ir_code_to_send\": \"@@@\"}",
+        "23": "{\"ir_code_to_send\": \"@@@\"}",
+        "24": "{\"ir_code_to_send\": \"@@@\"}",
+        "25": "{\"ir_code_to_send\": \"@@@\"}",
+        "26": "{\"ir_code_to_send\": \"@@@\"}",
+        "27": "{\"ir_code_to_send\": \"@@@\"}",
+        "28": "{\"ir_code_to_send\": \"@@@\"}",
+        "29": "{\"ir_code_to_send\": \"@@@\"}",
+        "30": "{\"ir_code_to_send\": \"@@@\"}",
+        "31": "{\"ir_code_to_send\": \"@@@\"}"
+      },
+      "high": {
+        "16": "{\"ir_code_to_send\": \"@@@\"}",
+        "17": "{\"ir_code_to_send\": \"@@@\"}",
+        "18": "{\"ir_code_to_send\": \"@@@\"}",
+        "19": "{\"ir_code_to_send\": \"@@@\"}",
+        "20": "{\"ir_code_to_send\": \"@@@\"}",
+        "21": "{\"ir_code_to_send\": \"@@@\"}",
+        "22": "{\"ir_code_to_send\": \"@@@\"}",
+        "23": "{\"ir_code_to_send\": \"@@@\"}",
+        "24": "{\"ir_code_to_send\": \"@@@\"}",
+        "25": "{\"ir_code_to_send\": \"@@@\"}",
+        "26": "{\"ir_code_to_send\": \"@@@\"}",
+        "27": "{\"ir_code_to_send\": \"@@@\"}",
+        "28": "{\"ir_code_to_send\": \"@@@\"}",
+        "29": "{\"ir_code_to_send\": \"@@@\"}",
+        "30": "{\"ir_code_to_send\": \"@@@\"}",
+        "31": "{\"ir_code_to_send\": \"@@@\"}"
+      },
+      "highest": {
+        "16": "{\"ir_code_to_send\": \"@@@\"}",
+        "17": "{\"ir_code_to_send\": \"@@@\"}",
+        "18": "{\"ir_code_to_send\": \"@@@\"}",
+        "19": "{\"ir_code_to_send\": \"@@@\"}",
+        "20": "{\"ir_code_to_send\": \"@@@\"}",
+        "21": "{\"ir_code_to_send\": \"@@@\"}",
+        "22": "{\"ir_code_to_send\": \"@@@\"}",
+        "23": "{\"ir_code_to_send\": \"@@@\"}",
+        "24": "{\"ir_code_to_send\": \"@@@\"}",
+        "25": "{\"ir_code_to_send\": \"@@@\"}",
+        "26": "{\"ir_code_to_send\": \"@@@\"}",
+        "27": "{\"ir_code_to_send\": \"@@@\"}",
+        "28": "{\"ir_code_to_send\": \"@@@\"}",
+        "29": "{\"ir_code_to_send\": \"@@@\"}",
+        "30": "{\"ir_code_to_send\": \"@@@\"}",
+        "31": "{\"ir_code_to_send\": \"@@@\"}"
+      }
+    }
+  }
+}
